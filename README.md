@@ -1,0 +1,1 @@
+This study aims to determine geoid heights at a number of control points in Lagos State by implementing the solution of the second GBVP, and compare the geoid heights so obtained with EGM2008-derived geoid heights. 

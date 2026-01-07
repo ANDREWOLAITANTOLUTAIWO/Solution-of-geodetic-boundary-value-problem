@@ -63,15 +63,9 @@ Extraction of Geoid Heights from EGM2008
 EGM2008-derived geoid heights for the control points were downloaded using Geoid Height Calculator in the appropriate website. EGM2008-derived geoid heights provide discrete geometric controls for assessment purposes.
 
 Assessment of the Computed and Extracted Geoid Heights 
-The differences between the computed and extracted geoid heights were assessed with standard deviation (SD) expressed in equation (45), and root mean square error (RMSE) expressed in equation (46).
-
-SD=1ni=1n(N-Nmean)2                                                                                                             (45)
-RMSE=1ni=1n(NOBS-NCOM)2                                                                                                         (46)
-Where N is the geoid height at a point, Nmean is the mean geoid height of a group of points,  NOBS is the observed geoid heights, NCOM is the computed geoid heights, and n is the total number of control points in a group.
+The differences between the computed and extracted geoid heights were assessed with standard deviation (SD), and root mean square error (RMSE).
 
 RESULTS AND DISCUSSION
-
-Results
 
 Geoid heights of 132 control points were computed using satellite-derived gravity data and GPS-derived positional data. Table 4 shows a sample computation results. The observed versus computed geoid heights were compared in OBSERVED-COMPUTED RESIDUALS, while the observed versus EGM2008-derived geoid heights were compared in OBSERVED-EGM2008 RESIDUALS. The SD and RMSE of each are shown in Table 6. SD of computed geoid heights is 0.147 while that of EGM2008-derived geoid heights is 0.173. This implies that the computed geoid heights are more closely spread around the mean than EGM2008-derived geoid heights. In other words, the EGM2008-derived geoid heights deviate farther away from the mean than computed geoid heights. Moreover, the RMSE of computed geoid heights is 0.272 while RMSE of EGM2008-derived geoid heights is 0.309. This indicates that the error in estimating geoid heights is higher with EGM2008-derived geoid heights than with the computed geoid heights. This fact can be visualized in Figure 6 where graph (a) shows that the computed geoid heights follow the same spikes and troughs as those of the observed geoid heights. This is not the case in graph (b) where the pattern of the EGM2008-derived geoid heights is different from that of the observed geoid heights. Thus, the computed geoid heights are more reliable than the EGM2008-derived geoid heights. 
 
